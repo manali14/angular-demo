@@ -12,12 +12,11 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1> "username" TODO's
+            <h1> TODO's
                 <small>A Blank Slate</small>
             </h1>
         </div>
     </div>
-
 
     <div class="row">
         <div class="col-lg-6">
@@ -36,14 +35,20 @@
             </form>
         </div>
         <div class="col-lg-6">
-            <ul class="list-group">
-                <li class="list-group-item">
-                    <span style="float: right"><input type="checkbox" /></span>
-                    <span style="float:right; margin-right:10px">
-                        <input type="button" value="DELETE" class="btn btn-xs btn-danger" >
-                    </span>
-                </li>
-            </ul>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">To-do List</h3>
+                </div>
+                <div class="panel-body">
+                    <table class="table">
+                        <tr> <td> task 1 </td> <td> <button type="button" class="btn btn-default btn-danger pull-right">Delete </button> </td> </tr>
+                        <tr> <td> task 2 </td> <td> <button type="button" class="btn btn-default btn-danger pull-right">Delete </button> </td> </tr>
+                        <tr> <td> task 3 </td> <td> <button type="button" class="btn btn-default btn-danger pull-right">Delete </button> </td> </tr>
+                        <tr> <td> task 4 </td> <td> <button type="button" class="btn btn-default btn-danger pull-right">Delete </button> </td> </tr>
+                        <tr> <td> task 5 </td> <td> <button type="button" class="btn btn-default btn-danger pull-right">Delete </button> </td> </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 </div><!-- /#page-wrapper -->

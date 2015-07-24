@@ -8,7 +8,7 @@ class Todo {
     Boolean completed = false
     Long dateCreated
     Long lastUpdated
-    Priority priority = Priority.LOW
+    String priority = Priority.LOW.toString()
 
 //    static belongsTo = [collection: TodoGroup]
 
