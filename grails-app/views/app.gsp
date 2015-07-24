@@ -36,8 +36,9 @@
         </div>
         <div class="col-lg-6">
             <div class="panel panel-primary">
-                <div class="panel-heading">
-                    <h3 class="panel-title">To-do List</h3>
+                <div class="panel-heading clearfix">
+                    <h3 class="panel-title pull-left"> To-do List</h3>
+                    <input type="text" style="width: 300px;" class="form-control pull-right" placeholder="Search"/>
                 </div>
                 <div class="panel-body">
                     <table class="table">
@@ -51,7 +52,7 @@
             </div>
         </div>
     </div>
-</div><!-- /#page-wrapper -->
+</div>
 
 </body>
 </html>
