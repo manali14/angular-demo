@@ -27,7 +27,7 @@
                     </div>
                     <div class="panel-body">
                         <div class="form-group">
-                            <input name="task" class="form-control" placeholder="Enter text" >
+                            <input name="task" class="form-control" placeholder="to-do Item" >
                         </div>
                         <input type="submit" class="btn btn-success" value="Create"/>
                     </div>
